@@ -17,11 +17,24 @@ body {
     font-weight: 300;
 }
 
+h1 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
 
 /* HEADER */
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
 
-
+header p {
+    font-size: 0.8em;
+}
 
 /* MAIN */
 
@@ -42,7 +55,7 @@ main {
 /* CALENDAR HEADER */
 
 .cal-header {
-    background-color: rgb(255, 193, 59);
+    background-color: rgb(245, 185, 55);
     width: 69.3vw;
     display: flex;
     flex-direction: column;
@@ -93,3 +106,8 @@ main {
 
 
 /* FOOTER */
+
+footer p {
+    color: white;
+    font-size: 0.8em;
+}

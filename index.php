@@ -13,6 +13,8 @@
     <title>Calendrier</title>
 </head>
 <body>
+    <?php include dirname(__FILE__) . "./templates/header.php" ?>
+    
     <main>
         <section id="calendar">
             <div class="cal-header">
@@ -36,6 +38,8 @@
                 <?php } ?>
             </div>
         </section>
+
+        <?php include dirname(__FILE__) . "./templates/footer.php" ?>
     </main>
 </body>
 </html>
