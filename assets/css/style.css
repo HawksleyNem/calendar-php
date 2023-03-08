@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../../ressources/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+/* ALL */
+
+body {
+    background-color: rgb(184, 93, 28);
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+
+/* HEADER */
+
+
+
+
+/* MAIN */
+
+main {
+    padding-block: 5vh;
+}
+
+
+/* CALENDAR */
+
+#calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* CALENDAR HEADER */
+
+.cal-header {
+    background-color: rgb(255, 193, 59);
+    width: 69.3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-bottom: 2vh;
+}
+
+.cal-header h2 {
+    font-weight: 300;
+}
+
+
+/* CALENDAR BOTTOM */
+
+.grid {
+    max-width: 70%;
+    width: 70%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 9.9vw);
+    justify-content: center;
+}
+
+.day-name {
+    width: 9.9vw;
+    height: 4vh;
+    background-color: rgb(240, 170, 19);
+    color: white;
+    font-size: 0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day-case {
+    width: 9.9vw;
+    height: 14vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+
+/* FOOTER */
