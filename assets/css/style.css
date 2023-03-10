@@ -57,16 +57,57 @@ main {
 .cal-header {
     background-color: rgb(245, 185, 55);
     width: 69.3vw;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
-    padding-bottom: 2vh;
+    padding-block: 2vh;
 }
 
 .cal-header h2 {
     font-weight: 300;
+    font-size: 1em;
+}
+
+.top-cal-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.arrow {
+    height: 20px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+select {
+    border: none;
+    border-radius: 3px;
+    height: 5vh;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+button {
+    background-color: white;
+    font-weight: 300;
+    border: none;
+    border-radius: 3px;
+    width: 10vw;
+    height: 5vh;
+    font-size: 0.8em;
+    font-family: 'Open Sans';
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 
@@ -106,8 +147,9 @@ main {
 
 
 /* FOOTER */
-
 footer p {
     color: white;
     font-size: 0.8em;
+    text-align: center;
+    margin-top: 1vh;
 }
